@@ -1,5 +1,25 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-{{ site.archives.size }}
+    {% include head.html %}
+
+    <body class="tag-template">
+
+        {% include page_header.html %}
+
+        <main class="content" role="main">
+            {{ content }}
+        </main>
+
+        {% include footer.html %}
+
+        {% include scripts.html %}
+
+    </body>
+
+</html>
+
+        
+{{ site.archives.name }}
+
+{{ site.archives.title }}
