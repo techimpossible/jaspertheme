@@ -20,5 +20,21 @@ author:
     location: Mars
     home: example.com
 
+gems:
+    - jekyll-archives
+
+jekyll-archives:
+    layout: archive                  # The default layout to use for archive pages.
+    enabled:                         # Specifies which archives are enabled.
+        - year
+        - month
+        - tags
+        - category
+    layouts:                         # (Optional) Specifies type-specific layouts.
+        year:       archive_year
+        month:      archive_month
+        tag:        archive_tag
+        category:   archive_category 
+
 # Build settings
 markdown: kramdown

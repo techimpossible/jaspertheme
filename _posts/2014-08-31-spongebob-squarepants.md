@@ -2,7 +2,7 @@
 layout: post
 title: "Spongebob Squarepants"
 date: 2014-08-31 17:01:15
-tags: [jekyll, sponge bob, square-pants]
+tags: [jekyll, spongebob, square-pants]
 ---
 
 Patrick! you forgot how to eat again! come on, we'll get the funnel. isn't this great squidward? it's just the 3 of us. you, me, and this brick wall you built between us. the inner machinations of my mind are an enigma. well, it may be stupid, but it's also dumb. you can't fool me. i listen to public radio! it's a vast swirling wonderland of sparkling white pleasure. let it fill your senses with cascading fluffy pillows of excitement, and comfort, as you've never felt before. don't we look vicious and bloodthirsty? y'all better apologize, or i'll be on you like ugly on an ape. no gary, i don't get colds i get the suds. there once was a man from peru who dreamed he was eating his shoe. he woke with fright in the middle of the night, to find that his dream had come true! yeah, uhh... i'm with the pet hospital down the street and i understand you have a dying animal on the premises... my ice cream! it's alive! aaaahhhhhhh! i'm mad. i can't see my forehead. i'll tell you the story of the ugly barnacle. there once was an ugly barnacle. he was so ugly, everybody died. the end. the line for the tunnel of glove is filling up. they don't call me cheeks for nothing. did you order twenty cases of... ripped pants?! hey look, a cardboard box washed up on the beach. holy fish paste, it's a guy!!!.
