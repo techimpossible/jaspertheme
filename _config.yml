@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-permalink: pretty
+permalink: /:title 
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -19,27 +19,6 @@ author:
         Hello world! This is a short bio of who I am, what I'm doing and how awesome I am.
     location: Mars
     home: example.com
-
-# gems:
-#   - jekyll-archives
-
-# jekyll-archives:
-#     layout: archive
-#     enabled:
-#         - year
-#         - month 
-#         - tags 
-#         - category 
-#     layouts:
-#         year: year-archive
-#         month: month-archive
-#         tags: tags-archive
-#         category: category-archive
-#     permalinks:
-#         year:       '/:year/'
-#         month:      '/:year/:month/'
-#         tag:        '/tag/:name/'
-#         category:   '/category/:name/'
 
 # Build settings
 markdown: kramdown
