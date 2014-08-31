@@ -35,6 +35,8 @@ jekyll-archives:
         month:      archive_month
         tag:        archive_tag
         category:   archive_category 
+    permalinks:
+        year:       '/:year'
 
 # Build settings
 markdown: kramdown
