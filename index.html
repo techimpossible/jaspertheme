@@ -2,22 +2,32 @@
 layout: default
 ---
 
-<div class="home">
+{% for post in paginator.posts %}
+<article class="post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>{{ post.excerpt | strip_html | truncatewords: 50 }}<a class="read-more" href="{{ post.url }}"> &raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="/assets/img/profile.png" alt="Author image" nopin="nopin" />
+        <a href="/">{{ site.author.name }}</a>
+        <time class="post-date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
+    </footer>
+</article>
+{% endfor %}
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<nav class="pagination" role="navigation">
+    {% if paginator.next_page %}
+        <a class="older-posts" href="/page/{{ paginator.next_page }}">Older Posts &rarr;</a>
+    {% endif %}
+    <span class="page-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.previous_page %} 
+        {% if paginator.page == 2 %}
+            <a class="newer-posts" href="/">&larr; Newer Posts</a>
+        {% else %}
+            <a class="newer-posts" href="/page/{{ paginator.previous_page }}">&larr; Newer Posts</a>
+        {% endif %}
+    {% endif %}
+</nav>
