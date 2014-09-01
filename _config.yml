@@ -18,19 +18,7 @@ author:
     bio: >
         Hello world! This is a short bio of who I am, what I'm doing and how awesome I am.
     location: Mars
-    home: example.com
-
-# gems:
-#     - jekyll-archives
-# 
-# jekyll-archives:
-#     layout: archive                  # The default layout to use for archive pages.
-#     enabled:                         # Specifies which archives are enabled.
-#         - tags
-#         - category
-#     layouts:                         # (Optional) Specifies type-specific layouts.
-#         tag:        archive_tag
-#         category:   archive_category 
+    home: http://example.com
 
 # Build settings
 markdown: kramdown

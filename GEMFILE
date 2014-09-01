@@ -1,3 +1,2 @@
 source 'https://rubygems.org'
 
-gem 'jekyll-archives' # , :path => "~/Projects/jekyll-archives"

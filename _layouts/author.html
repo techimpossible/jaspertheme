@@ -3,11 +3,11 @@
 
     {% include head.html %}
 
-    <body class="tag-template">
+    <body class="">
 
-        {% include page_header.html %}
+        {% include header_author.html %}
 
-        <main class="content" role="main">
+        <main id="content" class="content" role="main">
             {{ content }}
         </main>
 
@@ -16,10 +16,4 @@
         {% include scripts.html %}
 
     </body>
-
 </html>
-
-        
-{{ site.archives.name }}
-
-{{ site.archives.title }}
