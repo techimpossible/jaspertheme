@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: /:title 
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "localhost:4000" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 paginate: 5
@@ -20,23 +20,17 @@ author:
     location: Mars
     home: example.com
 
-gems:
-    - jekyll-archives
-
-jekyll-archives:
-    layout: archive                  # The default layout to use for archive pages.
-    enabled:                         # Specifies which archives are enabled.
-        - year
-        - month
-        - tags
-        - category
-    layouts:                         # (Optional) Specifies type-specific layouts.
-        year:       archive_year
-        month:      archive_month
-        tag:        archive_tag
-        category:   archive_category 
-    permalinks:
-        year:       '/:year'
+# gems:
+#     - jekyll-archives
+# 
+# jekyll-archives:
+#     layout: archive                  # The default layout to use for archive pages.
+#     enabled:                         # Specifies which archives are enabled.
+#         - tags
+#         - category
+#     layouts:                         # (Optional) Specifies type-specific layouts.
+#         tag:        archive_tag
+#         category:   archive_category 
 
 # Build settings
 markdown: kramdown
