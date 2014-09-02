@@ -13,24 +13,24 @@ Simply clone this repository, go into it and run ```jekyll serve --watch``` and 
 There aren't too many things to change for this to work, everything you need to change is in the ```_config.yml``` file:
 
 ```      
-        # Site settings
-        title: Your awesome title # Title of your site
-        description: > # this means to ignore newlines until "baseurl:"
-            Write an awesome description for your new site here. You can edit this
-            line in _config.yml. It will appear in your document head meta (for
-            Google search results) and in your feed.xml site description.
-        baseurl: "" # the subpath of your site, e.g. /blog/
-        permalink: /:title # Permalink structure
-        url: "localhost:4000" # the base hostname & protocol for your site
-        paginate: 5 # Number of posts per page
-        paginate_path: page/:num #Permalink structure for pagination
+# Site settings
+title: Your awesome title # Title of your site
+description: > # this means to ignore newlines until "baseurl:"
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+permalink: /:title # Permalink structure
+url: "localhost:4000" # the base hostname & protocol for your site
+paginate: 5 # Number of posts per page
+paginate_path: page/:num #Permalink structure for pagination
 
-        author: # You can invoke these via {{ site.author.NAME }} 
-            name: Your Name # Change to your name
-            bio: >
-                Hello world! This is a short bio of who I am, what I'm doing and how awesome I am. # Short and sweet about you
-            location: Mars # Where you live (accuracy not guaranteed)
-            home: http://example.com # Your website, must include http:// otherwise Jekyll thinks it's an internal link
+author: # You can invoke these via {{ site.author.NAME }} 
+    name: Your Name # Change to your name
+    bio: >
+        Hello world! This is a short bio of who I am, what I'm doing and how awesome I am. # Short and sweet about you
+    location: Mars # Where you live (accuracy not guaranteed)
+    home: http://example.com # Your website, must include http:// otherwise Jekyll thinks it's an internal link
 ```
 
 These are all the settings, you can probably already tell what should be changed. Change the URL of your site, your name, bio, location and such and the site is ready to go.
