@@ -5,9 +5,9 @@
 
   <body class="post-template">
 
-    {% include header_page.html %}
+    {% include header_post.html %}
 
-    <main class="content" role="main">
+    <main {% if page.image.feature %}id="content" {% endif %}class="content" role="main">
         {{ content }}
     </main>
 

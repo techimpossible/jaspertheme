@@ -1,5 +1,6 @@
-<header class="main-header no-cover">
+<header class="main-header{% if site.cover %}" style="background-image: url(/assets/img/{{ site.cover }})"{% else %} no-cover"{% endif %}>
     <nav class="main-nav overlay clearfix">
+        {% if site.logo %} <a class="blog-logo" href="{{ site.url }}"><img src="/assets/img/{{ site.logo }}" alt="Blog logo" /></a>{% endif %}
         <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
     </nav>
     <div class="vertical">

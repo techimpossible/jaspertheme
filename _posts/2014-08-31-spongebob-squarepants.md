@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Spongebob Squarepants"
+image:
+    feature: header-image.jpg
 date: 2014-08-31 17:01:15
 tags: [jekyll, spongebob, square-pants]
 ---
